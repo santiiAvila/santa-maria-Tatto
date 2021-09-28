@@ -1,0 +1,98 @@
+@media (max-width: 600px) {
+    .navegacion li {
+      font-size: 1.2rem;
+      margin: 0.5rem;
+    }
+  
+    .navegacion li a {
+      color: white;
+      margin: 1.3rem;
+    }
+  
+    .titulo {
+      font-size: 2.5rem;
+    }
+  
+    .subtitulo {
+      font-size: 1.8rem;
+    }
+  
+    .grilla {
+      display: grid;
+      padding: 10px;
+      grid-template-areas:
+        'uno dos '
+        'tres cuatro'
+        'cinco otro';
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      grid-column-gap: 5px;
+      grid-row-gap: 5px;
+    }
+    .footerNuevo{
+      justify-content: space-between;
+    }
+    
+    .social a img {
+      justify-content: space-around;
+      height: 75%;
+      width: 60%;
+    }
+  
+    .pieDescripcion {
+      width: 20%;
+      margin: 1rem;
+      font-size: 1.3rem;
+    }
+   
+  }
+  
+  @media (max-width: 480px) {
+    .navegacion li {
+      font-size: 1rem;
+      margin: 0.5rem;
+    }
+  
+    .navegacion li a {
+      color: white;
+      margin: 0.8rem;
+    }
+  
+    .titulo {
+      font-size: 2rem;
+    }
+  
+    .subtitulo {
+      font-size: 1.5rem;
+    }
+    .artista{
+      font-size: 2rem;
+    text-align: center;
+    }
+    .equipo{
+      font-size: 2rem;
+    }
+    .grilla {
+      display: grid;
+      grid-template-areas:
+        "uno"
+        'dos'
+        'tres'
+        'cuatro'
+        'cinco'
+        'otro';
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(6, 1fr);
+      grid-column-gap: 2px;
+      grid-row-gap: 2px;
+    }
+    .footerNuevo{
+      justify-content: space-between;
+    }
+  
+    .pieDescripcion {
+      width: 20%;
+      margin: 0.8rem;
+      font-size: 0.5rem;
+    }
+  }

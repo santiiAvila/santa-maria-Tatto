@@ -1,0 +1,52 @@
+/**estudio**/
+.estudio {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .estudio__img {
+    padding: 1rem;
+  }
+  .lugar{
+    width: 50%;}
+
+  .lugar__titulo{
+    color: white;
+    font-size: 5rem;
+    font-family: 'Open Sans', sans-serif;
+  }
+  .lugar__fundacion {
+    color: white;
+    font-size: 3rem;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+  }
+  .lugar__info {
+    color: white;
+    font-size: 2rem;
+  }
+  .contenido{
+    text-align: center;
+    padding: 3rem;
+  }
+  .contenido__boutique {
+    color: white;
+    font-size: 5rem;
+  }
+  .contenido__espacio {
+    color: white;
+    font-size: 3rem;
+  }
+  .descripion__espacio {
+    color: white;
+  }
+  .fotos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .fotos img {
+    margin: 1rem;
+    padding: 1rem;
+    border: 0.2px solid white;
+  }

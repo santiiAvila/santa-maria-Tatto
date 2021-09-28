@@ -1,0 +1,78 @@
+@import "fuentes";
+@import "index";
+@import "estudio";
+@import "muyimportante";
+@import "artista";
+@import "contacto";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  /* Por defecto es 100%, 62,5% cambia la base de 16px a 10px */
+  background-image: url(../imagenes/Slide-2.jpg);
+}
+
+.index {
+  background-image: url(/imagenes/Slide-2.jpg);
+}
+
+/**footer**/
+
+.footerNuevo {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding: 1rem;
+
+  .pieDescripcion {
+    width: 15%;
+    margin: 1rem;
+    font-size: 1rem;
+  }
+
+  .numeros {
+    font-size: 1rem;
+
+    li {
+      list-style-type: none;
+    }
+  }
+
+  .apartado li {
+    list-style-type: none;
+
+    a {
+      text-decoration: none;
+      color: white;
+    }
+  }
+
+  .social {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    li {
+      list-style-type: none;
+      margin: 1rem;
+
+      a {
+        color: white;
+        font-size: 1rem;
+      }
+    }
+  }
+
+}
+
+.derechos {
+  text-align: center;
+  color: white;
+}
+
+@import "media";

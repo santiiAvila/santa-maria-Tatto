@@ -1,0 +1,442 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Special+Elite&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Special+Elite&display=swap");
+/**inicio**/
+.menu li {
+  color: white;
+}
+
+.navegacion {
+  text-align: end;
+  margin: 0 1rem;
+  top: 11rem;
+  right: 2rem;
+}
+
+.navegacion li {
+  list-style-type: none;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
+  display: inline-block;
+  margin: 1rem;
+  padding: 0, 5rem;
+  border: 0.1rem solid white;
+  border-radius: 2rem;
+}
+
+.navegacion li a {
+  color: white;
+  text-decoration: none;
+  margin: 1.5rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.encabezado__titulo {
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 5rem;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.encabezado__subtitulo {
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+  font-family: 'Open Sans', sans-serif;
+  padding: 1rem;
+}
+
+.carousel {
+  width: 80%;
+  height: 40%;
+  margin: 3rem auto 3rem auto;
+}
+
+/**estudio**/
+.estudio {
+  display: flex;
+  justify-content: space-around;
+}
+
+.estudio__img {
+  padding: 1rem;
+}
+
+.lugar {
+  width: 50%;
+}
+
+.lugar__titulo {
+  color: white;
+  font-size: 5rem;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.lugar__fundacion {
+  color: white;
+  font-size: 3rem;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+}
+
+.lugar__info {
+  color: white;
+  font-size: 2rem;
+}
+
+.contenido {
+  text-align: center;
+  padding: 3rem;
+}
+
+.contenido__boutique {
+  color: white;
+  font-size: 5rem;
+}
+
+.contenido__espacio {
+  color: white;
+  font-size: 3rem;
+}
+
+.descripion__espacio {
+  color: white;
+}
+
+.fotos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.fotos img {
+  margin: 1rem;
+  padding: 1rem;
+  border: 0.2px solid white;
+}
+
+/**muyimportante**/
+.nuevaSeccion {
+  display: flex;
+  padding: 1rem;
+}
+
+.nuevaSeccion .importante {
+  justify-content: center;
+  padding: 1rem;
+}
+
+.nuevaSeccion .importante__titulo {
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.nuevaSeccion .importante__subtitulo {
+  color: white;
+  text-transform: uppercase;
+  font-size: 2rem;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.nuevaSeccion .importante__descripcion {
+  color: white;
+  font-size: 2rem;
+  padding: 2rem;
+}
+
+/**artistas**/
+.artista__titulo {
+  padding: 0rem 2rem;
+  color: white;
+  font-size: 4rem;
+}
+
+.equipo__titulo {
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.equipo__descripcion {
+  padding: 1rem 5rem 3rem 5rem;
+  color: white;
+  font-size: 2.5rem;
+}
+
+.prueba {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: black;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity: 0;
+  color: white;
+  font-size: 3rem;
+  padding: 20px;
+  text-align: start;
+}
+
+.prueba :hover {
+  opacity: 1;
+}
+
+.contenedor__grilla {
+  width: 80%;
+  justify-content: center;
+}
+
+.grilla {
+  padding: 2rem 3rem 0 3rem;
+  display: grid;
+  grid-template-areas: 'uno dos tres';
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+}
+
+.grid__dos {
+  justify-content: center;
+  display: grid;
+  padding: 2rem 3rem 0 3rem;
+  grid-template-areas: 'cuatro cinco';
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-column: 5px;
+  grid-row: 10rem;
+}
+
+.grid__dos img {
+  width: 100%;
+  height: 100%;
+}
+
+.grilla img {
+  width: 100%;
+  height: 100%;
+}
+
+.ignacio {
+  grid-area: uno;
+}
+
+.lucas {
+  grid-area: dos;
+}
+
+.pablo {
+  grid-area: tres;
+}
+
+.sofi {
+  grid-area: cuatro;
+}
+
+.mica {
+  grid-area: cinco;
+}
+
+.titulo h1 {
+  color: white;
+  font-size: 5rem;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.formulario__caja {
+  width: 30%;
+  padding: 1rem 0 4rem 1rem;
+}
+
+.formulario__texto {
+  color: white;
+  font-size: 3rem;
+}
+
+.contactenos {
+  color: white;
+  font-size: 2rem;
+  font-family: 'Open Sans', sans-serif;
+  padding: 2rem;
+}
+
+.contacto div {
+  padding: 1rem;
+}
+
+.contacto__uno {
+  display: flex;
+  justify-content: start;
+}
+
+form {
+  color: white;
+  font-size: 2rem;
+}
+
+.boton button {
+  font-size: 2rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  /* Por defecto es 100%, 62,5% cambia la base de 16px a 10px */
+  background-image: url(../imagenes/Slide-2.jpg);
+}
+
+.index {
+  background-image: url(/imagenes/Slide-2.jpg);
+}
+
+/**footer**/
+.footerNuevo {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding: 1rem;
+}
+
+.footerNuevo .pieDescripcion {
+  width: 15%;
+  margin: 1rem;
+  font-size: 1rem;
+}
+
+.footerNuevo .numeros {
+  font-size: 1rem;
+}
+
+.footerNuevo .numeros li {
+  list-style-type: none;
+}
+
+.footerNuevo .apartado li {
+  list-style-type: none;
+}
+
+.footerNuevo .apartado li a {
+  text-decoration: none;
+  color: white;
+}
+
+.footerNuevo .social {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.footerNuevo .social li {
+  list-style-type: none;
+  margin: 1rem;
+}
+
+.footerNuevo .social li a {
+  color: white;
+  font-size: 1rem;
+}
+
+.derechos {
+  text-align: center;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  .navegacion li {
+    font-size: 1.2rem;
+    margin: 0.5rem;
+  }
+  .navegacion li a {
+    color: white;
+    margin: 1.3rem;
+  }
+  .titulo {
+    font-size: 2.5rem;
+  }
+  .subtitulo {
+    font-size: 1.8rem;
+  }
+  .grilla {
+    display: grid;
+    padding: 10px;
+    grid-template-areas: 'uno dos ' 'tres cuatro' 'cinco otro';
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+  }
+  .footerNuevo {
+    justify-content: space-between;
+  }
+  .social a img {
+    justify-content: space-around;
+    height: 75%;
+    width: 60%;
+  }
+  .pieDescripcion {
+    width: 20%;
+    margin: 1rem;
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .navegacion li {
+    font-size: 1rem;
+    margin: 0.5rem;
+  }
+  .navegacion li a {
+    color: white;
+    margin: 0.8rem;
+  }
+  .titulo {
+    font-size: 2rem;
+  }
+  .subtitulo {
+    font-size: 1.5rem;
+  }
+  .artista {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .equipo {
+    font-size: 2rem;
+  }
+  .grilla {
+    display: grid;
+    grid-template-areas: "uno" 'dos' 'tres' 'cuatro' 'cinco' 'otro';
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 2px;
+    grid-row-gap: 2px;
+  }
+  .footerNuevo {
+    justify-content: space-between;
+  }
+  .pieDescripcion {
+    width: 20%;
+    margin: 0.8rem;
+    font-size: 0.5rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */

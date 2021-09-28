@@ -1,0 +1,57 @@
+/**inicio**/
+.menu li{
+    color: white;
+  }
+  .navegacion {
+    text-align: end;
+    margin: 0 1rem;
+    top: 11rem;
+    right: 2rem;
+    li {
+      list-style-type: none;
+      font-size: 1.5rem;
+      text-transform: uppercase;
+      font-weight: 300;
+      font-family: 'Open Sans', sans-serif;
+      display: inline-block;
+      margin: 1rem;
+      padding: 0, 5rem;
+      border: 0.1rem solid white;
+      border-radius: 2rem;
+      a {
+        color: white;
+        text-decoration: none;
+        margin: 1.5rem;
+      }
+    }
+    
+  }
+
+  .navbar-light .navbar-nav .nav-link{
+
+    color: white;
+    font-size: 2rem;
+    padding: 1rem;
+}
+  .encabezado__titulo {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 5rem;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .encabezado__subtitulo {
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Open Sans', sans-serif;
+    padding: 1rem;
+  }
+  .carousel{
+    width: 80%;
+    height: 40%;
+    margin: 3rem auto 3rem auto;
+  }
+  
