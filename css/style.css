@@ -18,7 +18,6 @@
   text-transform: uppercase;
   font-weight: 300;
   font-family: 'Open Sans', sans-serif;
-  display: inline-block;
   margin: 1rem;
   padding: 0, 5rem;
   border: 0.1rem solid white;
@@ -302,11 +301,11 @@ form {
 html {
   font-size: 62.5%;
   /* Por defecto es 100%, 62,5% cambia la base de 16px a 10px */
-  background-image: url(imagenes/fondo.jpg);
+  background-image: url(/imagenes/fondo.jpg);
 }
 
 .index {
-  background-image: url(imagenes/fondo.jpg);
+  background-image: url(/imagenes/fondo.jpg);
 }
 
 /**footer**/
