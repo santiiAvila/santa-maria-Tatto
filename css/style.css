@@ -302,11 +302,11 @@ form {
 html {
   font-size: 62.5%;
   /* Por defecto es 100%, 62,5% cambia la base de 16px a 10px */
-  background-image: url(../imagenes/Slide-2.jpg);
+  background-image: url(../imagenes/slide-2.jpg);
 }
 
 .index {
-  background-image: url(/imagenes/Slide-2.jpg);
+  background-image: url(/imagenes/slide-2.jpg);
 }
 
 /**footer**/
@@ -379,7 +379,9 @@ html {
   .grilla {
     display: grid;
     padding: 10px;
-    grid-template-areas: 'uno dos ' 'tres cuatro' 'cinco otro';
+    grid-template-areas: 'uno dos '
+ 'tres cuatro'
+ 'cinco otro';
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     grid-column-gap: 5px;
@@ -424,7 +426,12 @@ html {
   }
   .grilla {
     display: grid;
-    grid-template-areas: "uno" 'dos' 'tres' 'cuatro' 'cinco' 'otro';
+    grid-template-areas: "uno"
+ 'dos'
+ 'tres'
+ 'cuatro'
+ 'cinco'
+ 'otro';
     grid-template-columns: 1fr;
     grid-template-rows: repeat(6, 1fr);
     grid-column-gap: 2px;

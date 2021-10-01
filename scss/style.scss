@@ -1,9 +1,4 @@
-@import "fuentes";
-@import "index";
-@import "estudio";
-@import "muyimportante";
-@import "artista";
-@import "contacto";
+
 
 * {
   margin: 0;
@@ -21,7 +16,16 @@ html {
   background-image: url(imagenes/slide-2.jpg);
 }
 
+@import "fuentes";
+@import "index";
+@import "estudio";
+@import "muyimportante";
+@import "artista";
+@import "contacto";
+
+
 /**footer**/
+
 
 .footerNuevo {
   display: flex;
