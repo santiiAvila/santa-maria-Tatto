@@ -16,21 +16,9 @@
     .subtitulo {
       font-size: 1.8rem;
     }
-  
-    .grilla {
-      display: grid;
-      padding: 10px;
-      grid-template-areas:
-        'uno dos '
-        'tres cuatro'
-        'cinco otro';
-      grid-template-columns: 1fr 1fr;
-      grid-template-rows: 1fr 1fr 1fr;
-      grid-column-gap: 5px;
-      grid-row-gap: 5px;
-    }
     .footerNuevo{
-      justify-content: space-between;
+      display: flex;
+      flex-wrap: wrap;
     }
     
     .social a img {
@@ -71,20 +59,6 @@
     }
     .equipo{
       font-size: 2rem;
-    }
-    .grilla {
-      display: grid;
-      grid-template-areas:
-        "uno"
-        'dos'
-        'tres'
-        'cuatro'
-        'cinco'
-        'otro';
-      grid-template-columns: 1fr;
-      grid-template-rows: repeat(6, 1fr);
-      grid-column-gap: 2px;
-      grid-row-gap: 2px;
     }
     .footerNuevo{
       justify-content: space-between;

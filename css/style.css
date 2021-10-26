@@ -17,40 +17,21 @@ html {
 }
 
 /**inicio**/
-.menu li {
-  color: white;
-}
-
-.navegacion {
-  text-align: end;
-  margin: 0 1rem;
-  top: 11rem;
-  right: 2rem;
-}
-
-.navegacion li {
-  list-style-type: none;
-  font-size: 1.5rem;
-  text-transform: uppercase;
-  font-weight: 300;
-  font-family: 'Open Sans', sans-serif;
-  display: inline-block;
-  margin: 1rem;
-  padding: 0, 5rem;
-  border: 0.1rem solid white;
-  border-radius: 2rem;
-}
-
-.navegacion li a {
-  color: white;
-  text-decoration: none;
-  margin: 1.5rem;
-}
-
-.navbar-light .navbar-nav .nav-link {
-  color: white;
+#collapsibleNavbar {
+  justify-content: end;
   font-size: 2rem;
-  padding: 1rem;
+}
+
+#collapsibleNavbar li {
+  margin: 0.3rem;
+}
+
+#collapsibleNavbar li {
+  transition-duration: 0.4s;
+}
+
+#collapsibleNavbar li:hover {
+  background-color: red;
 }
 
 .encabezado__titulo {
@@ -136,7 +117,12 @@ html {
 .fotos img {
   margin: 1rem;
   padding: 1rem;
-  border: 0.2px solid white;
+  border: 1px solid white;
+  transition-duration: 0.6s;
+}
+
+.fotos img:hover {
+  opacity: 0.7;
 }
 
 /**muyimportante**/
@@ -189,83 +175,59 @@ html {
   font-size: 2.5rem;
 }
 
-.prueba {
-  position: relative;
-}
-
-.overlay {
-  position: absolute;
-  bottom: 0;
-  background: black;
-  background: rgba(0, 0, 0, 0.5);
-  color: #f1f1f1;
-  width: 100%;
-  transition: .5s ease;
-  opacity: 0;
+.artista {
   color: white;
   font-size: 3rem;
-  padding: 20px;
-  text-align: start;
+  text-align: center;
 }
 
-.prueba :hover {
-  opacity: 1;
+.cartas__artista {
+  display: flex;
+  margin: 3rem;
+  padding: 3rem;
+  width: 60%;
 }
 
-.contenedor__grilla {
-  width: 80%;
-  justify-content: center;
+.cartas__artista img {
+  padding: 1rem;
+  margin: 1rem;
 }
 
-.grilla {
-  padding: 2rem 3rem 0 3rem;
-  display: grid;
-  grid-template-areas: 'uno dos tres';
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
-  grid-column-gap: 5px;
-  grid-row-gap: 5px;
+.cartas__artista a {
+  text-decoration: none;
 }
 
-.grid__dos {
-  justify-content: center;
-  display: grid;
-  padding: 2rem 3rem 0 3rem;
-  grid-template-areas: 'cuatro cinco';
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
-  grid-column: 5px;
-  grid-row: 10rem;
+.borde {
+  margin: 0.5rem;
+  border: 1px solid white;
+  border-radius: 4px;
+  transition-duration: 0.6s;
 }
 
-.grid__dos img {
-  width: 100%;
-  height: 100%;
+.borde:hover {
+  opacity: 0.7;
 }
 
-.grilla img {
-  width: 100%;
-  height: 100%;
+.cartas__art {
+  display: flex;
+  width: 60%;
+  padding: 0 23rem;
+  margin: 2rem;
 }
 
-.ignacio {
-  grid-area: uno;
+.cartas__art img {
+  padding: 1rem;
+  margin: 1rem;
 }
 
-.lucas {
-  grid-area: dos;
+.cartas__art a {
+  text-decoration: none;
 }
 
-.pablo {
-  grid-area: tres;
-}
-
-.sofi {
-  grid-area: cuatro;
-}
-
-.mica {
-  grid-area: cinco;
+.cartas__info {
+  color: white;
+  font-size: 2rem;
+  padding: 0.5rem;
 }
 
 .titulo h1 {
@@ -310,6 +272,10 @@ form {
 }
 
 /**footer**/
+footer {
+  background-color: #212529;
+}
+
 .footerNuevo {
   display: flex;
   justify-content: space-between;
@@ -340,6 +306,15 @@ form {
   color: white;
 }
 
+.footerNuevo .apartado li {
+  transition-duration: 0.6s;
+}
+
+.footerNuevo .apartado li:hover {
+  background-color: red;
+  width: 30%;
+}
+
 .footerNuevo .social {
   display: flex;
   flex-direction: column;
@@ -354,6 +329,15 @@ form {
 .footerNuevo .social li a {
   color: white;
   font-size: 1rem;
+}
+
+.footerNuevo .social .iconos li {
+  transition-duration: 0.6s;
+}
+
+.footerNuevo .social .iconos li:hover {
+  background-color: red;
+  width: 40%;
 }
 
 .derechos {
@@ -376,17 +360,9 @@ form {
   .subtitulo {
     font-size: 1.8rem;
   }
-  .grilla {
-    display: grid;
-    padding: 10px;
-    grid-template-areas: 'uno dos ' 'tres cuatro' 'cinco otro';
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-column-gap: 5px;
-    grid-row-gap: 5px;
-  }
   .footerNuevo {
-    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
   }
   .social a img {
     justify-content: space-around;
@@ -421,14 +397,6 @@ form {
   }
   .equipo {
     font-size: 2rem;
-  }
-  .grilla {
-    display: grid;
-    grid-template-areas: "uno" 'dos' 'tres' 'cuatro' 'cinco' 'otro';
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(6, 1fr);
-    grid-column-gap: 2px;
-    grid-row-gap: 2px;
   }
   .footerNuevo {
     justify-content: space-between;
